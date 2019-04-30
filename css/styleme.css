@@ -29,3 +29,12 @@ body{
     font-style: italic;
     color:greenyellow;
 }
+#myName::first-letter{
+    font-family: Times New Roman;
+    color:green;
+    font-weight: bold;
+}
+.movie{
+    font-weight:bold;
+    
+}

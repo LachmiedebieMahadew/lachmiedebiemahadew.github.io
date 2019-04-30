@@ -11,6 +11,7 @@ body{
     color:#404040;
     font-size:11px;
     font-family: Georgia,Garamond,serif;
+    background-image:url('../Images/silverware.jpg')
     
 }
 .title{
@@ -39,4 +40,10 @@ a{
 }
 #cake{
     text-decoration: line-through;
+}
+.bold{
+    font-weight: bold;
+}
+ul{
+    list-style-image: url("../Images/pie_icon.gif");
 }
