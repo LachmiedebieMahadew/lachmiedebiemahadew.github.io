@@ -48,7 +48,7 @@ h1{
     background-repeat: repeat-x;
     width:550px;
     margin: 0;
-    float: left;
+  
 }
 #containerBannerText{
     font-size: 48pt;
@@ -62,7 +62,7 @@ h1{
     border: 2px gray solid;
     border-radius: 10px;
     float: left;
-    margin-bottom: 2%;
+    margin: 2%;
     width: 100%;
     
 }
@@ -78,9 +78,9 @@ h1{
 .ReviewResponse{
     width: 47%;
     margin-left: 2px;
-    margin-bottom: 20pt;
-    float: left;
+    margin-bottom: 10pt;
     padding: 2px;
+    display:inline-grid;
 }
 .criticLogo{
     float : left;
@@ -105,4 +105,11 @@ h1{
 }
 .tester{
     float:right;
+}
+#pageNumber{
+    text-align: center;
+    background-color: #A2B964;
+    height: 10pt;
+    margin-top: 3%;
+    margin-bottom: 0px;
 }
