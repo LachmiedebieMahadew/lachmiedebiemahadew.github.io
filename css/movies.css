@@ -1,0 +1,105 @@
+/*
+To change this license header, choose License Headers in Project Properties.
+To change this template file, choose Tools | Templates
+and open the template in the editor.
+*/
+/* 
+    Created on : May 2, 2019, 1:06:27 AM
+    Author     : Kadjal
+*/
+
+body{
+    background-image: url(../images/background.png);
+    font-size: 8pt;
+    font-family: Verdana, Tahoma,sans-serif;
+}
+#banner{
+    background-image: url("../images/bannerbg.png");
+    background-repeat: repeat-x;
+}
+#bannering{
+    margin: auto;
+    display: block;
+}
+pre{
+    white-space: pre-wrap;
+}
+#containerLogo{
+    float: left;
+    
+}
+#container{
+    width: 800px;
+    margin: auto;
+    border: 4px gray solid;
+    border-radius: 20px;
+    overflow: hidden;
+}
+h1{
+    text-align: center;
+    font-size: 24pt;
+    font-weight: bold;
+    font-family: Tahoma, Verdana,sans-serif;
+    text-shadow: 3px 3px #999999;
+}
+#reviewArea{
+    background-image: url("../images/rbg.png");
+    background-repeat: repeat-x;
+    width:550px;
+    margin: 0;
+    float: left;
+}
+#containerBannerText{
+    font-size: 48pt;
+    color: red;
+    font-weight: bold;
+    vertical-align: baseline;
+    margin-top: 0;
+}
+.review{
+    background-color: #E8DC9B;
+    border: 2px gray solid;
+    border-radius: 10px;
+    float: left;
+    margin-bottom: 2%;
+}
+.containerText{
+        font-weight: bold;
+        font-size: 8pt;
+        vertical-align: top;
+}
+.containerTextLogo{
+  float:left;
+}
+.humanReview{
+    width: 47%;
+    margin-left: 2%;
+    margin-bottom: 20pt;
+    float: left;
+    padding: 2px;
+}
+.criticLogo{
+    float : left;
+    margin-right: 5px;
+}
+.criticText{
+    font-style: italic;
+}
+
+.floatright{
+    float: right;
+    width: 250px;
+    background-color: #A2B964;
+    font-size: 8pt;
+    font-family: Arial , sans-serif  ;
+}
+#rightpic{
+    width: 250px;
+}
+.datalist{
+    font-weight:bold;
+}
+a{
+    vertical-align: top;
+    float:right;
+}
