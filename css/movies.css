@@ -69,11 +69,12 @@ h1{
         vertical-align: top;
 }
 .containerTextLogo{
+    margin-bottom: 2px;
   float:left;
 }
 .humanReview{
     width: 47%;
-    margin-left: 2%;
+    margin-left: 2px;
     margin-bottom: 20pt;
     float: left;
     padding: 2px;
@@ -99,7 +100,6 @@ h1{
 .datalist{
     font-weight:bold;
 }
-a{
-
+.tester{
     float:right;
 }
