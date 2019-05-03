@@ -1,0 +1,32 @@
+/*
+To change this license header, choose License Headers in Project Properties.
+To change this template file, choose Tools | Templates
+and open the template in the editor.
+*/
+/* 
+    Created on : May 2, 2019, 5:52:15 PM
+    Author     : Kadjal
+*/
+
+body{
+    background-image: url(../Images/mum_doom.jpg);
+    background-size:100%;
+    text-align: center;
+    font-family:sans-serif;
+    border:5px solid lightcoral;
+    
+  
+}
+input [type="text"]{
+    color:lightcoral;
+    font-family: serif;
+    
+}
+input [type="password"]{
+    color:hotpink;
+}
+h1{
+    color:aqua;
+    font-weight:bold;
+    text-shadow: 2px 2px lightBlue;
+}

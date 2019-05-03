@@ -1,0 +1,53 @@
+<!DOCTYPE html>
+<!--
+To change this license header, choose License Headers in Project Properties.
+To change this template file, choose Tools | Templates
+and open the template in the editor.
+-->
+<html lang="en">
+    <head>
+        <title>Retrieve Grade</title>
+        <meta charset="UTF-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <link rel="icon" href="Images/MUM_Logo_Blue_Small.png" type="images/gif">
+        <link href="css/grade.css" rel="stylesheet" type="text/css"/>
+    </head>
+    <body>
+        <h1>Retrieve your Grade </h1>
+            <form action="http://mumstudents.org/params.php" method="post">
+                <label> <img src="Images/name.png" alt=" name" width="100" height="50"/><input type="text" name="studentname"> </label>
+               
+                <label>Student Id<input type="password" name="studentId"></label> 
+                <select name="assignment">
+                    <option value="lab0"> HTML and CSS Lab00 </option>
+                    <option value="hw2"> CSS for page layout Homework 2</option>
+                    <optgroup label="CSS for styling">
+                    <option value="lab1">Lab01 </option>
+                    <option value="hw1"> Homework 1</option>
+                    </optgroup>
+                    <optgroup label="HTML Form">
+                    <option value="hw4"> Homework 4</option>
+                    <option value="gE"> Grade Exercise</option>
+                    </optgroup>
+                </select>
+                
+                <fieldset> <legend>Entry Season</legend>
+                <label><input type="radio" name="entry" value="Spring"> Spring</label>
+                <label><input type="radio" name="entry" value="Summer"> Summer</label>
+                <label><input type="radio" name="entry" value="Fall"> Fall</label>
+                <label><input type="radio" name="entry" value="Winter">Winter</label>
+                </fieldset>
+                <label><input type="CheckBox" name="legal">I Confirm that I am looking up for my own grade</label><br>
+                <input type="image" src="Images/grade.png" width="100" height="50">
+            </form>
+            
+        
+        
+        
+        
+        
+        
+        
+       
+    </body>
+</html>
